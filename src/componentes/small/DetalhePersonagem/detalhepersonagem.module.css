@@ -1,0 +1,5 @@
+.modalPersonagem {
+    z-index: 10;
+    background: yellow;
+    position: absolute;
+}

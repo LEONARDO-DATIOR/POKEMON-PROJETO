@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import Personagens from "./componentes/big/Personagens";
 
 function Pokedex() {
   const [personagensHP, setpersonagensHP] = useState([]);
@@ -17,25 +18,7 @@ function Pokedex() {
 
   return (
     <>
-      <h1>Todos os personagens: </h1>
-      {
-        personagensHP.map((personagens, index) => {
-          return (
-            <>
-            {
-              personagens.actor ?
-              <div key={index} >
-                <h2 >{personagens.name}</h2>
-                {personagens.imagem ? <></> : <img  src={personagens.image} alt="" /> }
-                <p>{personagens.actor}</p>
-              </div>
-              :
-              ""
-            }
-            </>
-          );
-        })
-      }
+      <Personagens listaPersonagens={personagensHP}></Personagens>
     </>
   );
 }

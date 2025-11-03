@@ -1,0 +1,23 @@
+.personagem {
+    width: 300px;
+    height: 500px;
+    background: blue;
+    cursor: pointer;
+}
+
+.personagem:hover {
+    opacity: 80%;
+}
+
+.personagem h2 {
+    background: white;
+}
+
+.personagem img {
+    width: 100%;
+    height: 400px;
+}
+
+.personagem p {
+    background: white;
+}
