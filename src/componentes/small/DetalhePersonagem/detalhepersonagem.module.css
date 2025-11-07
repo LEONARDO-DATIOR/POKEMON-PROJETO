@@ -1,5 +1,30 @@
 .modalPersonagem {
-    z-index: 10;
-    background: yellow;
-    position: absolute;
+    position: fixed;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 100%;
+    min-height: 100vh;
+}
+
+.modalPersonagem div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: green;
+    width: 600px;
+    height: 500px;
+}
+
+.modalPersonagem h3 {
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.modalPersonagem img {
+    width: 250px;
+    height: 250px;
 }

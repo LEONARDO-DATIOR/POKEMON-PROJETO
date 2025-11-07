@@ -6,6 +6,8 @@
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    height: 100vh;
+    padding: 4em 2em;
     gap: 2em;
-    background: green;
+    background: rgba(255, 213, 121, 0.705);
 }

@@ -1,0 +1,16 @@
+
+Site com a API:
+
+https://hp-api.onrender.com/ 
+
+
+
+Consultar todos os personagens:
+https://hp-api.onrender.com/api/characters
+
+
+Consultar professores:
+https://hp-api.onrender.com/api/characters/staff
+
+Consultar magias:
+https://hp-api.onrender.com/api/spells
