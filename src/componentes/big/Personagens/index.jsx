@@ -18,7 +18,6 @@ const Personagens = ({listaPersonagens}) => {
 
     return (
         <section className={styles.sectionPersonagens}>
-            <h1>Todos os personagens: </h1>
             <div className={styles.divPersonagens}>
                 {
                     listaPersonagens.map((personagem, index) => {

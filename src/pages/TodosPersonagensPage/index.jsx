@@ -1,6 +1,7 @@
 import Personagens from "../../componentes/big/Personagens"
 import { useEffect } from 'react';
 import { useState } from 'react';
+import { Header } from "../../componentes/big/Header";
 
 export const TodosPersonagensPage = () => {
     const [personagensHP, setpersonagensHP] = useState([]);
@@ -17,8 +18,12 @@ export const TodosPersonagensPage = () => {
     }); 
 
     return (
-        <>
-            <Personagens listaPersonagens={personagensHP}/>
+        <>  
+            <Header />
+            <main>
+                
+                <Personagens listaPersonagens={personagensHP}/>
+            </main>
         </>
     )
 }

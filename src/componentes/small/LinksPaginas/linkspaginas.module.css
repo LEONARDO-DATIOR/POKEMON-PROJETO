@@ -1,0 +1,16 @@
+.lista {
+    display: flex;
+    justify-content: space-evenly;
+    width: 400px;
+    list-style: none;
+}
+
+.lista a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+.lista a:hover {
+    color: wheat;
+}
