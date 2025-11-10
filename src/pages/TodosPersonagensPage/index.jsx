@@ -11,17 +11,16 @@ export const TodosPersonagensPage = () => {
         const fetchPersonagensHP = async () => {
         const personagensAPI = await fetch('https://hp-api.onrender.com/api/characters')
         const data = await personagensAPI.json()
-        setpersonagensHP(data)
+            setpersonagensHP(data)
         }
 
         fetchPersonagensHP();
-    }); 
+    }, []); 
 
     return (
         <>  
             <Header />
             <main>
-                
                 <Personagens listaPersonagens={personagensHP}/>
             </main>
         </>

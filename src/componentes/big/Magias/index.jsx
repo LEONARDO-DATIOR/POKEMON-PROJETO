@@ -7,7 +7,7 @@ export const Magias = ({magias}) => {
                 return (
                     <div key={magia.id} className={style.magia} >
                         <h2>{magia.name}</h2>
-                        <h2>{magia.description}</h2>
+                        <p>{magia.description}</p>
                     </div>
                 )
             })}

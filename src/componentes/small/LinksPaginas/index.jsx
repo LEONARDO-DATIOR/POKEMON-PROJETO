@@ -8,8 +8,7 @@
                     <Link to="/">Personagens</Link>
                 </li>
                 <li>
-                    <Link to="Magias">Magias</Link>
-
+                    <Link to="/Magias">Magias</Link>
                 </li>
             </ul>
         )
